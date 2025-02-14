@@ -18,9 +18,9 @@ public class Acensor_limite_peso {
     int numero = ProcesarDatos.nextInt();
    ProcesarDatos.close();
    if(imc==p/h^[2]){
-       System.out.println("El peso es valido");
+       System.out.println("El Acesor se mueve al piso deseado");
    }else{
-       System.out.println("El peseo no es valido");
+       System.out.println("Error Sobrepeso en el Acensor");
    }
  }
 }
