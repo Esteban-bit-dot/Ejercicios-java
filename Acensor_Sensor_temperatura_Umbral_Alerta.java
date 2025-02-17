@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Acesor_Sensor_Temperatura_Umbral_Alerta {
 
         public static void main(String[] args) {
+        }
+        public static String temperatura(){
         Scanner TomarDatos = new Scanner(System.in);
         System.out.print("Ingrese la temperatura ambiente (°C): ");
         int temperatura = TomarDatos.nextInt();
@@ -22,5 +24,6 @@ public class Acesor_Sensor_Temperatura_Umbral_Alerta {
             // Si la temperatura está fuera del rango, mostrar mensaje y no moverse
             System.out.println("Alerta La temperatura no es adecuada para mover el ascensor.");
         }
+         return null;
       }
 }
