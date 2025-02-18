@@ -20,7 +20,7 @@ public class impresora {
      String Paginas;
      while(Paginas>Papel){
         System.out.println("Papel insuficiente");
-        System.out.println("ingrese la cantidad de paginas que desea imprimir: ");
+        System.out.println("ingrese la cantidad de paginas que desea imprimir de nuevo: ");
         Papel = dato_Papel.nextInt();
      } 
      return null;
