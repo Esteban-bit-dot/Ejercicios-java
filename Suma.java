@@ -4,8 +4,8 @@ package ejecicios.java;
 import java.util.Scanner;
 
 public class Suma {
-    public static String Numeros(int Mostrar_Contactos){
-        String Numeros  = "";
+    public  int  Numeros(String Mostrar_suma){
+        int  Numeros  = "";
         Scanner TomarDatos = new Scanner(System.in);
         int Numeros = TomarDatos.nextInt();
         TomarDatos.close();
@@ -16,7 +16,7 @@ public class Suma {
         System.out.print("ingrese el segundo numero: ");
         Numeros = dato_Numeros.nextInt();
         int Acumulador = Numeros + 1;
-        int Mostrar_suma = 0;
+        String Mostrar_suma;
         int i;
         int num = 0;
         for(i=1; 1<=num, i++){
