@@ -9,7 +9,7 @@ public class Sensor_temperatura {
     public static void main(String[] args) {
         Sensor();
     }
-    public static String Sensor(){
+    public String Sensor(){
         String Temperatura = "";
         Scanner TomarDatos = new Scanner(System.in);
         Temperatura = dato_Temperatura.nextInt();
