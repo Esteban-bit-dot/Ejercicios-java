@@ -7,7 +7,7 @@ public class Resultado_Examen {
     public static void main(String[] args) {
         Sensor();
     }
-    public static String Sensor(){
+    public  String Sensor(){
         String Resultado = "";
         Scanner TomarDatos = new Scanner(System.in);
         Resultado = dato_Resultado.nextInt();
