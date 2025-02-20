@@ -6,12 +6,11 @@ import java.util.Scanner;
 public class Acensor {
 
     public static void Acensor(String[] args) {
-          Acensor();  
-    }
-    public static void Acensor(){
+        Acensor();  
         String pisos="10";
         Scanner TomarDatos = new Scanner(System.in);
         System.out.print("ingrese el piso al que desea ir:  ");
+        int Acensor = dato_Acensor.nextInt();
         int numero = TomarDatos.nextInt();
         TomarDatos.close();
         Scanner ProcesarDatos = new Scanner(System.in);
