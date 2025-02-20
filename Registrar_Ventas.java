@@ -3,7 +3,7 @@ package ejecicios.java;
 import java.util.Scanner;
 
 public class Registar_Ventas {
-    public static String tienda (){
+    public static void tienda (String []){
         String Productos  = "";
         Scanner TomarDatos = new Scanner(System.in);
         int Producto = TomarDatos.nextInt();
