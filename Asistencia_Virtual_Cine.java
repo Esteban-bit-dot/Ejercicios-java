@@ -10,7 +10,7 @@ public class Asistencia_Virtual_Cine {
     public static void Cine (String[] args){
          Scanner TomarDatos = new Scanner(System.in);
          System.out.print("Ingrese una Edad: ");
-         int Edad = Scanner.nextInt();
+         int Edad = dato_Edad.nextInt();
          int Cine = TomarDatos.nextInt();
          Scanner ProcesarDatos = new Scanner(System.in);
          int Cine = ProcesarDatos.nextInt();
