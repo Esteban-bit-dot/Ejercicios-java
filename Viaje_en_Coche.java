@@ -5,7 +5,7 @@ public class Viaje_en_Coche {
      public static void main(String[]args){
      viaje();
  }
-    public static String viaje(){
+    public String Coche(){
      String Velocidad = "";
      String Distancia = "";
      Scanner TomarDatos = new Scanner(System.in);
@@ -19,8 +19,8 @@ public class Viaje_en_Coche {
      int Producto = ProcesarDatos.nextInt();
      ProcesarDatos.close();
      while(t=d/v){
-        System.out.println("¿desea hace mas viajes?: ");
-        Viaje = dato_Viaje.nextInt();
+        System.out.println("¿desea hacer mas viajes?: ");
+        objViaje = dato_Viaje.nextInt();
      } 
      return null;
   }
