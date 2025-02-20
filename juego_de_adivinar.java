@@ -6,9 +6,9 @@ import java.util.Random;
 public class juego_adivinanza {
  
     public static void main(String[] args) {
-        
+        Adivinar_numero();
     } 
-    public static String Adivinar_numero (){
+    public  String Adivinar_numero (){
         Scanner TomarDatos = new Scanner(System.in);
         Random random = new Random();
         int numeroSecreto = random.nextInt(100) + 1; // Genera un número aleatorio entre 1 y 100
