@@ -11,7 +11,7 @@ public class Tienda_Virtual {
         Scanner ProcesarDatos = new Scanner(System.in);
         Operacion_compra = ProcesarDatos.nextInt();
         ProcesarDatos.close();
-        System.out.print("ingrese el nombre del producto ($): ");
+        System.out.print("ingrese el nombre del producto: ");
         System.out.print(mostrar_total);
         Operacion_compra = dato_Operacion_compra.nextInt();
         int Acumulador = Operacion_compra + 1;
