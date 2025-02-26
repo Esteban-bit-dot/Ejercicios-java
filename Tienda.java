@@ -5,9 +5,9 @@ public class Tienda {
         Scanner TomarDatos= new Scanner(System.in);
 
         // Precios base de los productos
-        int precioA = $100; // precio base de alimentos
-        int precioV = $200; // precio base de vestimenta
-        int precioE = $300; // precio base de electrónicos
+        int precioA = 100; // precio base de alimentos
+        int precioV = 200; // precio base de vestimenta
+        int precioE = 300; // precio base de electrónicos
 
         // Solicitar tipo de producto al cliente
         System.out.print("Ingrese el tipo de producto (A, V, E): ");
