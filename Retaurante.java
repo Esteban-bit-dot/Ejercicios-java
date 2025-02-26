@@ -18,10 +18,13 @@ public class Retaurante {
             case 'pollo frito':
                 System.out.println("30.000");
                 break;
-            case 'gaseosas':
+            case 'arroz chino':
+                 System.out.println("25.000");
+                 break;  
+            case 'salchipapa':
                 System.out.println("20.000");
                 break;
-            case 'jugos':
+            case 'jugos,gaseosas':
                 System.out.println("15.000");
                 break;
              case 'arroz con pollo':
