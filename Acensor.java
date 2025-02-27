@@ -7,7 +7,7 @@ public class Acensor {
 
     public static void Acensor(String[] args) {
         Acensor();  
-        String pisos="10";
+        String pisos="50";
         Scanner TomarDatos = new Scanner(System.in);
         System.out.print("ingrese el piso al que desea ir:  ");
         int Acensor = dato_Acensor.nextInt();
@@ -16,7 +16,7 @@ public class Acensor {
         Scanner ProcesarDatos = new Scanner(System.in);
         int numero = ProcesarDatos.nextInt();
         ProcesarDatos.close();
-        if(numero==10){
+        if(numero==50){
             System.out.println("el piso es valido");
         }else{
             System.out.println("el piso es invalido");
