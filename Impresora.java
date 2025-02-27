@@ -24,6 +24,7 @@ public class impresora {
         System.out.println("ingrese la cantidad de paginas que desea imprimir de nuevo: ");
         double Papel = dato_Papel.nextDouble();
         int pagina = dato_pagina.nextInt();
+         break;
      } 
      return null;
   }
