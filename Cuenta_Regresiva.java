@@ -21,6 +21,7 @@ public class Cuenta_regresiva {
         System.out.println("desea ingresar otro numero: ");
         System.out.printin("¡Tiempo cumplido!");
         Numero = dato_Numero.nextInt();
+         break;
      } 
      return null;
   }
