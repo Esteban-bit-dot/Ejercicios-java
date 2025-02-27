@@ -7,7 +7,7 @@ public class Menu {
      public static void main(String[]args){
      Menu();
  }
-     public static String Menu(){
+     public static String Menu(String datomenu){
        String Menu = "";
        Scanner TomarDatos = new Scanner(System.in);
        Menu = dato_Menu.nextInt();
@@ -27,9 +27,9 @@ public class Menu {
          System.out.println("5. papa rellena $8.000");
          System.out.print("Seleccione un menu: ");
          String Precio_total = Menu();
-         Menu = dato_Menu.nextInt();
+         Menu = datoMenu.nextInt();
      }while(Menu>5){
-         
+         System.out.println("¿desea volver a comprar otra comida?: ");
      }
        return null;
    }
