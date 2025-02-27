@@ -21,6 +21,7 @@ public class Viaje_en_Coche {
      while(t=d/v){
         System.out.println("¿desea hacer mas viajes?: ");
         objViaje = dato_Viaje.nextInt();
+        break;
      } 
      return null;
   }
