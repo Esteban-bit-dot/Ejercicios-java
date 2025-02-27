@@ -9,8 +9,8 @@ public class Tienda2 {
      tienda();
  }
    public  String tienda(){
-     String Producto = "15";
-     double precio = "15.000";
+     String Producto = "35";
+     double precio = "25.000";
      Scanner TomarDatos new Scanner(System.in);
      Scanner dato_Producto = new Scanner(System.in);
      System.out.print("ingrese la cantidad de productos que desea comprar: ");
