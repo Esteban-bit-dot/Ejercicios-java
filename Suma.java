@@ -16,14 +16,13 @@ public class Suma {
         System.out.print("ingrese el segundo numero: ");
         Numeros = dato_Numeros.nextInt();
         int Acumulador = Numeros + 1;
-        String Mostrar_suma;
         int i;
         int num = 0;
         for(i=1; 1<=num, i++){
-            int num1 = 0;
-            int num2 = 0;
-           int Numero = num1 + num2;
-           System.out.print(Mostrar_suma);
+            num1();
+            num2();
+            int Numero = num1 + num2;
+            System.out.print(resultado());
         }
         return null;
 }
