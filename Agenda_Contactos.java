@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Agenda_Contactos {
 
     public static String Contactos(int Mostrar_Contactos){
-        String Contactos  = "";
+        Contactos();
         Scanner TomarDatos = new Scanner(System.in);
         int Operacion_compra = TomarDatos.nextInt();
         TomarDatos.close();
