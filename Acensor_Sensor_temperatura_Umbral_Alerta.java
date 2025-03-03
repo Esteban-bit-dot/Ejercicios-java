@@ -17,6 +17,7 @@ public class Acesor_Sensor_Temperatura_Umbral_Alerta {
         int Sensor = dato_Sensor.nextInt();
         ProcesarDatos.close();
         if (temperatura <= temp) {
+            sensor();
             // Si la temperatura está dentro del rango, el ascensor puede moverse
             System.out.print("Ingrese el piso deseado: ");
             
