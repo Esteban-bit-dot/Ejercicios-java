@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Suma {
     public  int  Numeros(String Mostrar_suma){
-        int  Numeros  = "";
+        Numeros();
         Scanner TomarDatos = new Scanner(System.in);
         int Numeros = TomarDatos.nextInt();
         TomarDatos.close();
