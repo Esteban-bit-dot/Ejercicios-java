@@ -18,12 +18,13 @@ public class Biblioteca {
        do {
          int texto = 0;
          int Acumulador = texto + 1;
+         System.out.println("***Registro de libros***");
          System.out.println("ingrese el titulo del libro: ");
          System.out.println("ingrese el Numbre del autor: ");
          System.out.println("Ingrese el numero de paginas: ");
          libro= dato_Libro.nextInt();
      }while(libro>5){
-         
+         System.out.println("quiere registrar mas libros?: ");
      }
        return null;
    }
