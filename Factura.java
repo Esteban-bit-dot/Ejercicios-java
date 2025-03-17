@@ -2,10 +2,8 @@ package factura;
 
 import java.util.Scanner;
 
- 
 public class Factura {
 
-    
     public static void nombre_Cliente(String[] args) {
         String nombre_Cliente="";
         Scanner TomarDatos = new Scanner(System.in);
@@ -31,7 +29,6 @@ public class Factura {
         return null;
     }
     
-    
     public static int Precio() {
       String Precio="";
       String Producto="";
@@ -46,7 +43,6 @@ public class Factura {
       return 0;
      }
 
-   
    public static int Calcular_datos(int iva){
         System.out.println("ingrese la cantidad de productos: ");
         System.out.println("ingrese el tipo de usuario (A,B o C): ")
