@@ -4,6 +4,7 @@ package ejercicios.java;
 import java.util.Scanner;
 
 public class impresora {
+    
     public static void main(String[]args){
     Pagina();
  }
