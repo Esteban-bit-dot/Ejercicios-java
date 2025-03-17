@@ -23,7 +23,7 @@ public class Tienda2 {
      while(Producto){
         int Calcular_precio;
         System.out.println(Calcular_precio);
-        System.out.println("desea agregar otro producto productos : ");
+        System.out.println("desea agregar otro producto: ");
         Producto = dato_Producto.nextInt();
      } 
      return null;
