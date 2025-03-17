@@ -17,7 +17,7 @@ public class Cuenta_regresiva {
      ProcesarDatos.close();
      while(numero){
         boolean num = true;
-        System.out.println(num + : + 0 + 0);
+        System.out.println(num : 0 + 0);
         System.out.println("desea ingresar otro numero: ");
         System.out.printin("¡Tiempo cumplido!");
         Numero = dato_Numero.nextInt();
