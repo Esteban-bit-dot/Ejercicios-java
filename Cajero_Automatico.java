@@ -3,7 +3,6 @@ package ejercicios.java;
 import java.util.Scanner;
 
 public class Cajero_Automatico {
-
   
     public static void main(String[] args) {
        String cajero();
