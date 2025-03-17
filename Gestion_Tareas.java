@@ -3,6 +3,7 @@ package ejecicios.java;
 import java.util.Scanner;
 
 public class Tarea {
+    
     public static String descripcion(){
         String Descripcion = "";
         Scanner TomarDatos = new Scanner(System.in);
