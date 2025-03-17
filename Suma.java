@@ -4,6 +4,7 @@ package ejecicios.java;
 import java.util.Scanner;
 
 public class Suma {
+    
     public  int  Numeros(String Mostrar_suma){
         Numeros();
         Scanner TomarDatos = new Scanner(System.in);
